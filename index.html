@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sokoban Game</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body> 
+
+  <div id="map"></div>
+     
+     <!-- Navigation bar for starting the game -->
+    <div class="nav-start">   
+        <button id="start-btn">PLAY</button>
+    </div>
+
+    <!-- Navigation bar for displaying goals and moves -->
+    <div class="nav-goals-moves"> 
+        <p>Moves: <span id="moves-counter">0</span></p>
+        <p>Goals: <span id="goals-counter">0</span></p>
+    </div>
+
+    <!-- Navigation bar for restarting the game -->
+    <div class="nav-restart">      
+        <button id="restart-btn">Reset</button>
+    </div>
+
+     <div class="title-bar">
+        <h1>Sokoban Game</h1>
+    </div>
+
+    <script src="SokobanBase.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
